@@ -1,0 +1,14 @@
+workspace:
+  package_set:
+    registry: 36.3.0
+
+  build_opts:
+    pedantic_packages: true
+    censor_warnings: "dependency"
+    strict: true
+    stash: true
+
+  extra_packages:
+    my-project:
+      path: "my-project"
+    

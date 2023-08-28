@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "spago": "^0.93.10"
+  },
+  "scripts": {
+    "bug": "spago test -p my-project || node .spago/run/run.js"
+  }
+}

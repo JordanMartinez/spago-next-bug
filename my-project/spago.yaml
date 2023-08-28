@@ -1,0 +1,13 @@
+package:
+  name: my-project
+  dependencies: []
+
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+      - prelude
+      - aff
+      - node-fs-aff
+      - prelude
